@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="skyBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0F2FE" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Crisp Cloud White / Sky Backdrop -->
+  <rect width="512" height="512" rx="112" fill="url(#skyBg)" />
+
+  <!-- Subtle yellow sparkle accents in open sky -->
+  <path d="M104 74 L112 96 L134 104 L112 112 L104 134 L96 112 L74 104 L96 96 Z" fill="#FACC15" stroke="#1E293B" stroke-width="6" stroke-linejoin="round" />
+  <circle cx="394" cy="126" r="15" fill="#FACC15" stroke="#1E293B" stroke-width="6" />
+  <circle cx="112" cy="390" r="11" fill="#FDE047" stroke="#1E293B" stroke-width="5" />
+
+  <!-- Cozy Illustrated Electric-Blue Bird -->
+  <g transform="translate(254, 276)">
+    <!-- Tail feathers -->
+    <path d="M-92 8 L-168 -24 L-134 10 L-164 40 L-86 28 Z" fill="#38BDF8" stroke="#1E293B" stroke-width="14" stroke-linejoin="round" />
+
+    <!-- Back raised wing -->
+    <path d="M-12 -36 C-56 -116 -128 -144 -140 -106 C-150 -74 -102 -20 -46 -8 Z" fill="#38BDF8" stroke="#1E293B" stroke-width="14" stroke-linejoin="round" />
+
+    <!-- Bright Yellow Crest Tuft -->
+    <path d="M-10 -68 L-34 -138 L36 -74 Z" fill="#FACC15" stroke="#1E293B" stroke-width="12" stroke-linejoin="round" />
+
+    <!-- Plump body -->
+    <ellipse cx="0" cy="10" rx="114" ry="86" fill="#00D4FF" stroke="#1E293B" stroke-width="14" />
+
+    <!-- Soft cream-cyan belly -->
+    <ellipse cx="16" cy="40" rx="72" ry="44" fill="#E0F7FF" />
+
+    <!-- Front wing -->
+    <path d="M-10 4 C-66 -46 -116 -16 -96 34 C-78 72 -18 58 14 26 Z" fill="#38BDF8" stroke="#1E293B" stroke-width="13" stroke-linejoin="round" />
+
+    <!-- Bright Yellow Beak -->
+    <path d="M98 -16 L166 -2 L102 28 Z" fill="#FACC15" stroke="#1E293B" stroke-width="13" stroke-linejoin="round" />
+
+    <!-- Expressive Eye -->
+    <circle cx="58" cy="-22" r="22" fill="#FFFFFF" stroke="#1E293B" stroke-width="10" />
+    <circle cx="64" cy="-22" r="11" fill="#1E293B" />
+    <circle cx="68" cy="-27" r="4.5" fill="#FFFFFF" />
+
+    <!-- Warm cheek dot -->
+    <circle cx="42" cy="10" r="11" fill="#FDE047" opacity="0.9" />
+  </g>
+</svg>
